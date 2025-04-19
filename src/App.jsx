@@ -6,6 +6,14 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  const routes = [
+    {
+      id:1,
+      path:'/',
+      element:'',
+    },
+  ]
+
   return (
     <>
       <div>

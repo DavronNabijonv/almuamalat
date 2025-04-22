@@ -1,6 +1,22 @@
-.container{
-  max-width: 1300px;
+.container {
+  max-width: 1400px;
   width: 100%;
   padding: 10px;
   margin: 0 auto;
+}
+
+/* navbar drop down styles */
+.program1 .program1-grp,
+.program2 .program2-grp,
+.program3 .program3-grp{
+  display: none;
+}
+.program1:hover .program1-grp{
+  display: flex;
+}
+.program2:hover .program2-grp{
+  display: flex;
+}
+.program3:hover .program3-grp{
+  display: flex;
 }

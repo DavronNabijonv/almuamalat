@@ -23,7 +23,7 @@ export default function TextTranslater({
       onClick={route_click_func}
       className={({ isActive }) => ` ${txt_styles} ${isActive?route_active_styles:''} ` }
     >
-      <div className={``}>{t(txt)}</div>
+      {t(txt)}
     </NavLink>
   ) : (
     <div className={txt_styles}>{t(txt)}</div>

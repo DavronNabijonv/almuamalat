@@ -125,6 +125,7 @@ function LinksGroup({ close_func }) {
         route_link={"/"}
         route_active_styles={'text-orange-600'}
         txt="homePage"
+        route_click_func={close_func}
       />
 
       <TextTranslater
@@ -133,6 +134,7 @@ function LinksGroup({ close_func }) {
         route_active_styles={'text-orange-600'}
         route_link={"/"}
         txt="services"
+        route_click_func={close_func}
       />
 
       <DropDown />
@@ -143,6 +145,7 @@ function LinksGroup({ close_func }) {
         txt_styles=" text-teal-950 font-[600] hover:text-orange-600 "
         route_link={"/"}
         txt="economica"
+        route_click_func={close_func}
       />
 
       <TextTranslater
@@ -151,6 +154,7 @@ function LinksGroup({ close_func }) {
         route_link={"/"}
         txt="council"
         route_active_styles={'text-orange-600'}
+        route_click_func={close_func}
       />
 
       <TextTranslater
@@ -159,6 +163,7 @@ function LinksGroup({ close_func }) {
         route_link={"/"}
         txt="contact"
         route_active_styles={'text-orange-600'}
+        route_click_func={close_func}
       />
     </>
   );
